@@ -1,0 +1,23 @@
+<head>
+  <title> Dinshaw Twillo App</title>
+</head>
+ 
+<body>
+  <h1>Twillo App</h1>
+  {{> welcome }}
+  {{> input}}
+</body>
+ 
+<template name="welcome">
+  <p>
+    Welcome to the example Twillio app! Please log in to show your username.
+  </p>
+  
+</template>
+ 
+<template name="input">
+  <p>Phone No<input type="text" id="number"></p>
+  <p>Message<input type="text-area" id="sms"></p>
+ <input type="button" class="add" value="send-message" id="send" />
+ 
+</template>
